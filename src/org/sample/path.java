@@ -12,7 +12,7 @@ public class path {
 	public static void main(String[] args) {
 
 		WebDriver driver = new ChromeDriver();
-		/*
+		
 		driver.get("https://facebook.com/");
 		
 		WebElement txtUserName = driver.findElement(By.xpath("//input[@type='text']"));
@@ -31,14 +31,16 @@ public class path {
 		
 		
 		List<WebElement> buttons = driver.findElements(By.xpath("(//a[@role='button'])"));
-		WebElement btnCreate = buttons.get(1);
-		btnCreate.click();
+		WebElement btnCreate1 = buttons.get(1);
+		btnCreate1.click();
 		
 		
 		driver.get("http://www.greenstechnologys.com ");
 		String Title = driver.findElement(By.xpath("//span[@class='blue_text']/u")).getText();
 		System.out.println(Title);
-		*/
+		
+		
+		
 		driver.get("https://greenstech.in/selenium-course-content.html");
 		String para = driver.findElement(By.xpath("(//div[@class='col-lg-7']/p)[3]")).getText();
 		System.out.println(para);
