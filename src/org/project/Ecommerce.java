@@ -34,10 +34,8 @@ public class Ecommerce {
 		
 		WebElement Items =  driver.findElement(By.xpath("//div[@class='KzDlHZ']"));
 		
+		System.out.println("Demo");
 		
-		for (int i = 0; i <= Items.length(); i++) {
-            System.out.println(Items.charAt(i));
-        }
 		
 		
 		
